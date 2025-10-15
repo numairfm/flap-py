@@ -57,6 +57,7 @@ while running:
         top_pillar.center = start_top_pillar.copy()
         bottom_pillar.center = start_bottom_pillar.copy()
         plr_y_vel = 0
+        score = 0
         
         text_surface = font.render(f"Press the UP arrow to start!", True, (0,0,0))
         screen.blit(text_surface, (35, 50))
